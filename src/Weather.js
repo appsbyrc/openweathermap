@@ -7,7 +7,7 @@ const Weather = () => {
     const [zipCode, setZipCode] = useState('');
     const [weatherData, setWeatherData] = useState(null);
 
-    const API_KEY = '4V1WhGgWgthXisdUU6yY1tHGJvDeW3Hn';
+    const API_KEY = 'yourApiKeyhere';
     const API_URL = `http://dataservice.accuweather.com/forecasts/v1/daily/1day/`;
 
     const fetchWeather = async () => {
